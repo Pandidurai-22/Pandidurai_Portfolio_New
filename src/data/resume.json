@@ -1,0 +1,145 @@
+{
+  "name": "Pandi Durai S",
+  "title": "Software Engineer",
+  "summary": "Software Engineer with nearly 2 years of experience building full-stack web applications, deploying deep learning models, and developing MLOps workflows. Delivered AI solutions improving model accuracy by 12–15%, optimized CI/CD pipelines with Docker/Jenkins, and built scalable applications using React, Next.js, Python, MySQL, and microservices. Strong in computer vision, model development, and end-to-end project execution.",
+  
+  "contact": {
+    "email": "pandidurai32127@gmail.com",
+    "phone": "+91 9751391299",
+    "location": "Chennai, India",
+    "linkedin": "https://linkedin.com/in/pandidurai-s-6a30b8212",
+    "github": "https://github.com/Pandidurai-22"
+  },
+
+  "experience": [
+    {
+      "id": 1,
+      "company": "32Mins Digital Consultancy Services Pvt Ltd",
+      "position": "Software Engineer",
+      "duration": "Sept 2025 – Present",
+      "location": "IITM Research Park, Chennai",
+      "description": "Developing AI-driven systems, scalable applications, and DevOps pipelines.",
+      "achievements": [
+        "Developing an AI/DL gaze-tracking system on Raspberry Pi, improving prediction accuracy by 15%.",
+        "Building and deploying full-stack applications using React/Next.js, Python, MySQL, REST APIs and Microservices.",
+        "Improved Moodle/WordPress LMS performance and workflow efficiency by 20%.",
+        "Enhanced CI/CD pipelines using Docker, Jenkins, SonarQube, and Git-based version control."
+      ]
+    },
+    {
+      "id": 2,
+      "company": "32Mins Digital Consultancy Services Pvt Ltd",
+      "position": "Junior Software Engineer",
+      "duration": "Apr 2024 – Aug 2025",
+      "location": "IITM Research Park, Chennai",
+      "description": "Developed machine learning models, backend APIs, and automation workflows.",
+      "achievements": [
+        "Developed, trained, deployed and tested deep learning models using TensorFlow and PyTorch.",
+        "Built backend APIs and dashboards using Python, JavaScript, MySQL and REST API integrations.",
+        "Designed automation scripts and contributed to production deployment pipelines.",
+        "Collaborated on CI/CD processes and workflow validation."
+      ]
+    },
+    {
+      "id": 3,
+      "company": "IITM Pravartak — IITM Research Park",
+      "position": "Project Intern",
+      "duration": "Jan 2024 – Mar 2024",
+      "location": "Chennai",
+      "description": "Worked on Linux-based automation and system-level performance optimization.",
+      "achievements": [
+        "Created Bash scripts to automate system tasks and improved server performance.",
+        "Performed Linux-based system flashing, testing, and data validation workflows."
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "title": "AI Powered Bug Tracker",
+      "tech": ["React • Spring Boot • ML • PostgreSQL • Hugging Face • REST APIs • Microservices"],
+      "description": "Full-stack bug tracker with AI-driven priority & severity prediction using Hugging Face/DJL. Includes user management, dashboards, and Kanban workflows.",
+      "links": {
+        "github": "",
+        "demo": ""
+      }
+    },
+    {
+      "title": "Real-Time Eye Gaze Visualization (Accuracy ≈80%)",
+      "tech": ["Python • Mediapipe • OpenCV • Pygame"],
+      "description": "Developed real-time regression-based screen mapping and smoothed gaze visualization.",
+      "links": {
+        "github": ""
+      }
+    },
+    {
+      "title": "Fake News Detection using LSTM (+95% Accuracy)",
+      "tech": ["Python • TensorFlow • Keras • NLP • ML Pipeline"],
+      "description": "Built full ML pipeline with preprocessing, training, hyperparameter tuning, and evaluation.",
+      "links": {
+        "colab": ""
+      }
+    }
+  ],
+
+  "skills": [
+    {
+      "category": "Frontend",
+      "items": ["HTML", "CSS", "JavaScript", "React", "Next.js", "Tailwind CSS", "Bootstrap", "Framer Motion"]
+    },
+    {
+      "category": "Backend",
+      "items": ["Python (Django)", "Java (Spring Boot)", "Node.js", "Express", "REST APIs", "Microservices", "PHP"]
+    },
+    {
+      "category": "AI/ML",
+      "items": ["TensorFlow", "PyTorch", "OpenCV", "Mediapipe", "Hugging Face", "NumPy", "Pandas", "Scikit-learn", "Computer Vision", "Model Optimization"]
+    },
+    {
+      "category": "DevOps",
+      "items": ["Docker", "Jenkins", "SonarQube", "Git", "GitHub", "CI/CD", "Version Control"]
+    },
+    {
+      "category": "Databases",
+      "items": ["MySQL", "PostgreSQL"]
+    },
+    {
+      "category": "Tools",
+      "items": ["Linux", "Moodle", "WordPress", "Figma", "Canva"]
+    }
+  ],
+
+  "education": [
+    {
+      "id": 1,
+      "school": "Indian Institute of Technology Madras",
+      "degree": "Bachelor of Science",
+      "field": "Data Science and Applications",
+      "year": "2024 – Present"
+    },
+    {
+      "id": 2,
+      "school": "KSR Institute of Engineering and Technology (Anna University)",
+      "degree": "Bachelor of Technology",
+      "field": "Information Technology",
+      "year": "2019 – 2023",
+      "cgpa": "8.14"
+    },
+    {
+      "id": 3,
+      "school": "Anderson Matriculation Higher Secondary School",
+      "degree": "HSC",
+      "year": "2018 – 2019",
+      "score": "78%"
+    },
+    {
+      "id": 4,
+      "school": "Anderson Matriculation Higher Secondary School",
+      "degree": "SSLC",
+    "year": "2016 – 2017",
+      "score": "60%"
+    }
+  ],
+
+  "certifications": []
+}

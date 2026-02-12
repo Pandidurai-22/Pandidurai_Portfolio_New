@@ -1,0 +1,245 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header li{
+@apply px-2;
+}
+header{
+  position: sticky;
+  background-color: rgba(0, 0, 0, 0.8); 
+  color: gold;
+  width: 100%;
+}
+
+body{
+  background-color: whitesmoke;
+ 
+}
+#root{
+  overflow-x: hidden;
+}
+
+
+
+.new-nav{
+  background-color: rgba(0, 0, 0, 0.1);
+  
+  @apply text-black flex flex-col items-center p-4;  
+}
+.nav-small{
+  width: 100%;
+  height: fit-content;
+  background-color: rgba(0, 0, 0, 0.40);
+  transition: 5s ease-in-out;
+}
+.nav-small li{
+  @apply font-bold;
+  color:white;
+}
+
+
+
+
+.new-nav li{
+  @apply border border-yellow-300 w-40 py-2 text-center;
+  transition: 5s ease-in;
+}
+
+.home-page h1{
+  @apply text-xl font-bold md:text-5xl
+}
+
+.react-home{
+  height: 100vh;
+  
+}
+.react-contact{
+  height: calc(100vh - 66px);
+}
+
+.pandi{
+  color: gold;
+}
+.btn-contact{
+  background-color: gold;
+  width: fit-content;
+  @apply text-white font-bold p-3 rounded;
+}
+
+.react-about{
+  height: calc(100vh - 66px);
+}
+.overall-skills{
+  height: calc(100vh - 66px);
+}
+.about-header{
+  transition: 2s ease-out;
+}
+
+.about-header:hover{
+color: gold;
+background-color: black;
+font-weight: 400;
+@apply no-underline rounded-full p-2;
+cursor: pointer;
+font-size: large;
+transition: 2s  ease-in-out;
+}
+
+.about-header-01:hover{
+  color: rgba(0, 0, 0, 0.8);
+  @apply p-2;
+  cursor: pointer;
+  font-size: large;
+  transition: 0.5s linear ease-in-out;
+  }
+
+.img-about:hover{
+  cursor: pointer;
+}
+.para-about-head:hover,.about-Me:hover{
+  transition: 1s ease-in-out;
+  font-size: large;
+  cursor:progress;
+}
+.social-icons:hover{
+  @apply text-3xl rounded-full p-2;
+  transition: 2s ease-in-out;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+
+}
+.download{
+  border:1px solid white;
+  padding: 10px;
+  transition: 1s ease-in-out;
+ 
+}
+.download:hover{
+  background-color: white;
+  color: black;
+  font-weight: 400;
+  transition: 0.5s ease-in-out;
+}
+
+.skills-card{
+  width: fit-content;
+  height: auto;
+  background-color:white;
+  @apply p-3 bg-transparent ;
+}
+
+.progress-bar-outer{
+  height: 1rem;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.40);
+  @apply rounded-full relative;
+  border: 1px solid black;
+}
+.progress-bar-inner{
+  /* width: 0%; */
+  height:100%;
+  @apply bg-white;
+  @apply absolute rounded-full;
+  transition: width 1s ease-in;
+}
+
+@keyframes grow{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 100%;
+  }
+}
+.skills-card{
+  width: 100%;
+  /* background-color:rgb(243, 222, 105); */
+  box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.40);
+}
+.skills-card:hover{
+  /* background-color: rgb(218, 201, 106); */
+  background-color: transparent rgba(0, 0, 0, 0.40);
+  box-shadow: 10px 10px 5px white;
+  border: 1px solid gray;
+}
+.hide-spline{
+  width: 10rem;
+  height: 5rem;
+  background-color: whitesmoke;
+  right: 1%;
+  bottom: 1%;
+  z-index: 10000;
+
+}
+
+@media screen and (max-width:768px){
+  .hide-spline{
+    width: 40%;
+  }
+}
+
+@media screen and (max-width:425px){
+  .hide-spline{
+    width: 40%;
+    height: 10%;
+    background-color: whitesmoke;
+  }
+}
+.aboutimg img:hover{
+  transition: 1s ease-in-out;
+  width: 100%;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.8);
+}
+.aboutimg img{
+  transition: 1s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.8);
+}
+.react-contact{
+  background-color: whitesmoke;
+}
+.contact-body{
+  height: fit-content;
+}
+
+.input{
+  border: 1px solid goldenrod;
+}
+
+.send-msg{
+  border: 1px solid black;
+  @apply rounded font-bold;
+  transition: 2s ease-in;
+  
+  
+}
+.send-msg:hover{
+  border: 1px solid black;
+  @apply rounded font-bold;
+  background-color: goldenrod;
+  transition: 2s linear ease-in-out;
+  box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.8);
+  
+}
+
+.header-card{
+  background:rgba(0, 0, 0, 0.1);
+  width: fit-content;
+  @apply p-2 rounded-full;
+}
+
+.About-text{
+  /* background-color: goldenrod; */
+  @apply p-3 sm:bg-white md:bg-yellow-400;
+  border-left: 4px double white;
+  transition: 2s ease-in;
+  box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.40);
+}
+.About-text:hover{
+  @apply translate-y-1;
+  transition: 2s ease-in;
+  box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.1);
+}
