@@ -5,7 +5,8 @@ import { FiGithub, FiExternalLink, FiFilter, FiX } from 'react-icons/fi';
 import project1 from '../assets/google_clone.png';
 import Fight from '../assets/game.png';
 import Gaze from '../assets/gaze_bubble.png';
-import AiBug from "../assets/bug.png"
+import AiBug from "../assets/bug.png";
+import RAG from "../assets/rag_new.gif"
 import project3 from '../assets/clock.png';
 import project4 from '../assets/bus.jpg';
 import project5 from '../assets/face-de.webp';
@@ -19,8 +20,18 @@ import { desc, image, title } from 'motion/react-client';
 import qr from "../assets/Pandidurai_qr_circular.png"
 
 const projects = [
-  {
+    {
         id: 1,
+        image: RAG,
+        title: 'AI Codebase Assistant (RAG-based Developer Tool)',
+        description: 'An AI-powered Codebase Assistant that allows developers to chat with any GitHub repository. The system clones a repository, indexes the code, generates embeddings, and uses Retrieval-Augmented Generation (RAG) to answer developer questions about the codebase. This helps developers understand large repositories faster without manually exploring every file.',
+        tags: ['FastAPI', 'Next.Js', 'OpenAI API', 'FAISS','Vector Search','Embeddings','RAG'],
+        github: 'https://github.com/Pandidurai-22/Intelligent_Codebase_RAG_System/tree/main',
+        category:'AI',
+        category:'Full Stack'
+      },
+  {
+        id: 2,
         image: Ecommerce,
         title: 'E-Commerce Order & Inventory Management System — Backend',
         description: 'Designed and implemented a scalable e-commerce backend featuring JWT-based authentication, role-based access control (ADMIN / CUSTOMER), product and inventory management, order lifecycle handling, and transactional database operations.',
@@ -29,7 +40,7 @@ const projects = [
         category:'Backend',
       },
         {
-        id: 2,
+        id: 3,
         image: Fight,
         title: 'Fighting Game',
         description: 'Designed a real-time 2D canvas rendering engine with collision detection, sprite animation, and keyboard-controlled physics interactions.',
@@ -39,7 +50,7 @@ const projects = [
         category:'Frontend',
       },
       {
-        id: 3,
+        id: 4,
         image: Gaze,
         title: 'Eye gaze tracking',
         description: "A real-time eye-tracking application that displays a visual bubble overlay on your screen, showing exactly where you're looking. Built with MediaPipe for face detection, OpenCV for camera processing, and Pygame for the transparent overlay display.",
@@ -49,7 +60,7 @@ const projects = [
         category: 'AI',
       },
       {
-        id: 4,
+        id: 5,
         image: AiBug,
         title: 'AI Powered Bug Tracker',
         description: 'A full-stack bug tracking application with AI-powered analysis for efficient issue management. Built with Spring Boot and React, this application helps teams track, prioritize, and resolve bugs effectively.',
@@ -59,7 +70,7 @@ const projects = [
         category:'Full Stack',
       },
   {
-    id: 5,
+    id: 6,
     title: 'Smart Waste Management in Metropolitan Cities in IBM',
     description:'This project was developed in my 7th semester college project ,IBM trained us for developing this hardware based project',
     tags:['Arduino Uno','Sensors','Java',],
@@ -68,7 +79,7 @@ const projects = [
     category:'Backend',
   },
   {
-    id: 6,
+    id: 7,
     title: 'Bus Booking System Using Java',
     description: 'A Simple bus booking system using basic java syntax and using some classes',
     tags: ['java'],
@@ -78,7 +89,7 @@ const projects = [
     category: 'Backend',
   },
   {
-    id: 7,
+    id: 8,
     title: 'Twitter Fake Dataset Detection',
     description: 'This project is detecting the fake accounts on twitter(X) by using LSTM MLOps',
     tags: ['Python', 'LSTM', 'Tokenization','MLOps'],
@@ -88,7 +99,7 @@ const projects = [
     category: 'AI',
   },
   {
-    id:8,
+    id:9,
     title: 'Google Clone',
     description: 'A Webpage of google clone using react and tailwind css.',
     tags: ['react.js', 'Tailwind CSS'],
@@ -98,7 +109,7 @@ const projects = [
     category:'Frontend',
   },
   {
-    id:9,
+    id:10,
     image:project3,
     title: 'Analog clock using javascript',
     description: "Created using html5,css3,javascript just for understanding the circular rotation like offsets x,y directions",
@@ -108,7 +119,7 @@ const projects = [
     category:'Frontend',
   },
   {
-    id:10,
+    id:11,
     image: qr,
     title: "Vcard(QR) generator using python",
     description:'Business card generator using python fpdf,qr it generates the qr if user scans it automatically saves in contact as suggestion dont need to enter all details for saving a contact',
@@ -118,7 +129,7 @@ const projects = [
     category:'Backend',
   },
   {
-    id:11,
+    id:12,
     image: project8,
     title:'Image Encryption and Decryption using RSA Algorithm Java',
     description:"This is my college mini project we developed this using rsa algorithm if user uploaded image it encrypt using some password and decrypt only if we enter the password or key",
@@ -128,7 +139,7 @@ const projects = [
     category:'Backend'
   },
   {
-    id:12,
+    id:13,
     image: project6,
     title: "Ocr detection using tesseract",
     description:'Ocr detection it detects the text of images and displays it in print or console after analyzing the image',
@@ -138,7 +149,7 @@ const projects = [
     category:'AI',
   },
   {
-    id:13,
+    id:14,
     image:project7,
     title:"Real-Time Object Detection using Python & OpenCV",
     description:"A deep learning-based project that uses OpenCV's DNN module with the MobileNetSSD model to detect and classify multiple objects in real time from a webcam feed. It highlights detected objects with bounding boxes and confidence scores.",

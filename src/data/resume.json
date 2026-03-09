@@ -1,7 +1,7 @@
 {
   "name": "Pandi Durai S",
   "title": "Software Engineer",
-  "summary": "Software Engineer with nearly 2 years of experience building full-stack web applications, deploying deep learning models, and developing MLOps workflows. Delivered AI solutions improving model accuracy by 12–15%, optimized CI/CD pipelines with Docker/Jenkins, and built scalable applications using React, Next.js, Python, MySQL, and microservices. Strong in computer vision, model development, and end-to-end project execution.",
+  "summary": "Software Engineer with 2+ years of experience building full-stack web applications, deploying deep learning models, and developing MLOps workflows. Delivered AI solutions improving model accuracy by 12–15%, optimized CI/CD pipelines with Docker/Jenkins, and built scalable applications using React, Next.js, Python, MySQL, and microservices. Strong in computer vision, model development, and end-to-end project execution.",
   
   "contact": {
     "email": "pandidurai32127@gmail.com",
@@ -20,10 +20,10 @@
       "location": "IITM Research Park, Chennai",
       "description": "Developing AI-driven systems, scalable applications, and DevOps pipelines.",
       "achievements": [
-        "Developing an AI/DL gaze-tracking system on Raspberry Pi, improving prediction accuracy by 15%.",
-        "Building and deploying full-stack applications using React/Next.js, Python, MySQL, REST APIs and Microservices.",
+        "Conducting R&D on an AI/DL-based gaze-tracking system for Raspberry Pi; current prototypes demonstrate ~15% accuracy improvement over initial internal models.",
+        "Built end to end LLM pipelines including prompt engineering, RAG, embeddings, evaluation, and API deployment.",
         "Improved Moodle/WordPress LMS performance and workflow efficiency by 20%.",
-        "Enhanced CI/CD pipelines using Docker, Jenkins, SonarQube, and Git-based version control."
+        " Building and deploying full-stack AI applications using React/Next.js, Python, MySQL, REST APIs, and Microservices."
       ]
     },
     {
@@ -56,6 +56,14 @@
 
   "projects": [
     {
+      "title": "AI Codebase Assistant (RAG-based Developer Tool)",
+      "tech": ["FastAPI • Next.js • OpenAI API • FAISS • Vector Search • Embeddings • RAG"],
+      "description": "Built an AI Codebase Assistant to query and understand GitHub repositories using RAG, embeddings, and LLMs.",
+      "links": {
+        "demo": "https://github.com/Pandidurai-22/Intelligent_Codebase_RAG_System/"
+      }
+    },
+    {
       "title": "AI Powered Bug Tracker",
       "tech": ["React • Spring Boot • ML • PostgreSQL • Hugging Face • REST APIs • Microservices"],
       "description": "Full-stack bug tracker with AI-driven priority & severity prediction using Hugging Face/DJL. Includes user management, dashboards, and Kanban workflows.",
@@ -71,14 +79,6 @@
       "links": {
         "github": ""
       }
-    },
-    {
-      "title": "Fake News Detection using LSTM (+95% Accuracy)",
-      "tech": ["Python • TensorFlow • Keras • NLP • ML Pipeline"],
-      "description": "Built full ML pipeline with preprocessing, training, hyperparameter tuning, and evaluation.",
-      "links": {
-        "colab": ""
-      }
     }
   ],
 
@@ -93,7 +93,7 @@
     },
     {
       "category": "AI/ML",
-      "items": ["TensorFlow", "PyTorch", "OpenCV", "Mediapipe", "Hugging Face", "NumPy", "Pandas", "Scikit-learn", "Computer Vision", "Model Optimization"]
+      "items": ["TensorFlow", "PyTorch", "OpenCV", "Mediapipe", "Hugging Face", "NumPy", "Pandas", "Scikit-learn", "Computer Vision", "Model Optimization","LLM", "RAG"]
     },
     {
       "category": "DevOps",

@@ -29,8 +29,8 @@ const Resume = () => {
   const downloadResume = () => {
     // Link to your PDF file in public folder
     const link = document.createElement('a');
-    link.href = '/Pandidurai_AI.pdf'; // Place your PDF in public folder
-    link.download = 'Pandidurai_AI.pdf';
+    link.href = '/Pandidurai_AI_Engineer.pdf'; // Place your PDF in public folder
+    link.download = 'Pandidurai_AI_Engineer.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

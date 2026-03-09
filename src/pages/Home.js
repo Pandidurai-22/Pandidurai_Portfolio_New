@@ -154,7 +154,7 @@ const Home = () => {
             <h2 className="section-title">About Me</h2>
             <div className="prose dark:prose-invert max-w-none text-left mx-auto">
               <p className="text-lg mb-6">
-                I'm a Software Engineer with nearly 2 years of hands-on experience in building 
+                I'm a Software Engineer with 2+ years of hands-on experience in building 
   high-performance web applications and AI/ML solutions. With expertise in both 
   frontend (React, Next.js) and backend (Python, MySQL, Spring Boot) technologies, 
   I focus on creating scalable, efficient, and user-friendly digital experiences.
@@ -163,14 +163,16 @@ const Home = () => {
                  My journey in software development began with an internship at IITM Pravartak, 
   where I worked on automation and system performance. Since then, I've contributed 
   to projects ranging from deep learning–based gaze tracking on Raspberry Pi to 
-  full-stack web applications and LMS platforms. I’m currently pursuing a B.S. in 
+  full-stack AI web applications and LMS platforms. I’m currently pursuing a B.S. in 
   Data Science & Applications at IIT Madras, and I’m always eager to explore new 
   tools, frameworks, and methodologies to stay ahead in this fast-evolving field.
 
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 {[
-                  'JavaScript (ES6+)',
+                  'Deep Learning',
+                  'LLM',
+                  'RAG',
                   'React.js',
                   'Next.js',
                   'Python',
@@ -178,7 +180,6 @@ const Home = () => {
                   'Node.js',
                   'PostgreSQL',
                   'MongoDB',
-                  'MySQL',
                   'Tailwind CSS',
                   'Git & GitHub',
                 ].map((skill, index) => (

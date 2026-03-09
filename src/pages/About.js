@@ -15,6 +15,7 @@ const About = () => {
   ];
 
   const skills = [
+    {name: 'AI/ML', items:['Deep Learning','Computer vision','LLM','RAG', 'NLP']},
     { name: 'Frontend', items: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS','Bootstrap','Redux'] },
     { name: 'Backend', items: ['Python(Django)','Java(Springboot)','Php','Node.js', 'Deep learning', 'PostgreSQL'] },
     { name: 'Tools', items: ['Git', 'Docker', 'Figma', 'Postman'] },
@@ -32,9 +33,12 @@ const About = () => {
         <h1 className="text-4xl md:text-5xl font-bold mb-6">About Me</h1>
         <div className="w-24 h-1 bg-gradient-to-r from-primary-500 to-secondary-500 mx-auto mb-8"></div>
         <p className="text-xl text-gray-600 dark:text-gray-800">
-I'm a Software Engineer with nearly 2 years of experience and I also specialize in AI/ML solutions, including deep learning projects like gaze tracking on Raspberry Pi, 
+          Software Engineer with 2+ years of experience building, training, and deploying deep learning models into production. Strong
+hands-on expertise in computer vision, NLP, and end-to-end ML pipelines using TensorFlow and PyTorch. Experienced in
+full-stack development, containerized deployments, and CI/CD workflows for scalable AI systems.
+{/* I'm a Software Engineer with 2+ years of experience and I also specialize in AI/ML solutions, including deep learning projects like gaze tracking on Raspberry Pi, 
 leveraging TensorFlow, PyTorch, and OpenCV. With hands-on experience in CI/CD pipelines using Docker and Jenkins, 
-I bridge development, data science, and DevOps to deliver impactful solutions.
+I bridge development, data science, and DevOps to deliver impactful solutions. */}
 {/* building scalable, user-focused applications. Skilled in frontend (React, Next.js, Tailwind CSS) 
 and backend (Python, MySQL, Spring Boot), I create seamless digital experiences from design to deployment.  */}
 
@@ -129,7 +133,7 @@ and backend (Python, MySQL, Spring Boot), I create seamless digital experiences 
     </div>
     <h3 className="text-xl font-bold mt-6">Pandi Durai</h3>
     <p className="text-gray-500 dark:text-gray-600">
-      Software Engineer | Full Stack Developer | AI/ML
+      Software Engineer - AI
     </p>
   </motion.div>
 </div>
