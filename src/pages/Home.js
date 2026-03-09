@@ -9,6 +9,7 @@ import Fight from "../assets/game.png"
 import Gaze from '../assets/gaze_bubble.png';
 import AiBug from '../assets/bug.png';
 import Ecommerce from '../assets/Ecommerce.png';
+import RAG from "../assets/rag_new.gif"
 
 const Home = () => {
   const { onCursor } = useCursor();
@@ -42,8 +43,18 @@ const Home = () => {
   };
 
   const projects = [
+        {
+            id: 1,
+            image: RAG,
+            title: 'AI Codebase Assistant (RAG-based Developer Tool)',
+            description: 'An AI-powered Codebase Assistant that allows developers to chat with any GitHub repository. The system clones a repository, indexes the code, generates embeddings, and uses Retrieval-Augmented Generation (RAG) to answer developer questions about the codebase. This helps developers understand large repositories faster without manually exploring every file.',
+            tags: ['FastAPI', 'Next.Js', 'OpenAI API', 'FAISS','Vector Search','Embeddings','RAG'],
+            github: 'https://github.com/Pandidurai-22/Intelligent_Codebase_RAG_System/tree/main',
+            category:'AI',
+            category:'Full Stack'
+          },
     {
-      id: 1,
+      id: 2,
       image: Ecommerce,
       title: 'E-Commerce Order & Inventory Management System — Backend',
       description: 'Designed and implemented a scalable e-commerce backend featuring JWT-based authentication, role-based access control (ADMIN / CUSTOMER), product and inventory management, order lifecycle handling, and transactional database operations. Secured APIs using Spring Security and deployed containerized services with Docker to simulate real-world production systems.',
@@ -51,7 +62,7 @@ const Home = () => {
       github: 'https://github.com/Pandidurai-22/E-Commerce-Order-Inventory-Management-System-Java-Spring-Boot-.git',
     },
     {
-      id: 2,
+      id: 3,
       image: AiBug,
       title: 'AI Powered Bug Tracker',
       description: 'A full-stack bug tracking application with AI-powered analysis for efficient issue management. Built with Spring Boot and React, this application helps teams track, prioritize, and resolve bugs effectively.',
@@ -60,7 +71,7 @@ const Home = () => {
       live: 'https://bugtrackerclient-mu.vercel.app/',
     },
     {
-      id: 3,
+      id: 4,
       image: Gaze,
       title: 'Eye gaze tracking',
       description: 'Realtime eye gaze bubble follows your eye gaze on top of background image.',
